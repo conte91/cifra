@@ -15,7 +15,7 @@
 #include "salsa20.h"
 
 #include "testutil.h"
-#include "handy.h"
+#include "ext/handy.h"
 #include "cutest.h"
 
 static void test_salsa20_core(void)

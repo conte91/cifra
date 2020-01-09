@@ -13,7 +13,7 @@
  */
 
 #include "chacha20poly1305.h"
-#include "handy.h"
+#include "ext/handy.h"
 #include "cutest.h"
 #include "testutil.h"
 

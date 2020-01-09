@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <stddef.h>
 
-#include "handy.h"
+#include "ext/handy.h"
 
 typedef int64_t gf[16];
 
@@ -161,7 +161,7 @@ static void inv25519(gf o, const gf i)
 }
 
 
-void cf_curve25519_mul(uint8_t *q, const uint8_t *n, const uint8_t *p)
+static void cf_curve25519_mul(uint8_t *q, const uint8_t *n, const uint8_t *p)
 {
   uint8_t z[32];
   gf x;
@@ -218,4 +218,3 @@ void cf_curve25519_mul_base(uint8_t *q, const uint8_t *n)
 {
   cf_curve25519_mul(q, n, _9);
 }
-

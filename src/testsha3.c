@@ -13,7 +13,7 @@
  */
 
 #include "sha3.h"
-#include "handy.h"
+#include "ext/handy.h"
 #include "cutest.h"
 #include "testutil.h"
 #include "testsha.h"

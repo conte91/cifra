@@ -15,7 +15,7 @@
 #include "sha2.h"
 #include "hmac.h"
 #include "pbkdf2.h"
-#include "handy.h"
+#include "ext/handy.h"
 #include "cutest.h"
 #include "testutil.h"
 

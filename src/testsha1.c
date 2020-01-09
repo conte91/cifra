@@ -14,7 +14,7 @@
 
 #include "sha1.h"
 #include "hmac.h"
-#include "handy.h"
+#include "ext/handy.h"
 #include "cutest.h"
 #include "testutil.h"
 

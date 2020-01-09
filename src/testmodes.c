@@ -17,7 +17,7 @@
 #include "bitops.h"
 #include "gf128.h"
 
-#include "handy.h"
+#include "ext/handy.h"
 #include "cutest.h"
 #include "testutil.h"
 

@@ -13,7 +13,7 @@
  */
 
 #include "norx.h"
-#include "handy.h"
+#include "ext/handy.h"
 #include "cutest.h"
 #include "testutil.h"
 

@@ -16,7 +16,7 @@
 #include "poly1305.h"
 
 #include "testutil.h"
-#include "handy.h"
+#include "ext/handy.h"
 #include "cutest.h"
 
 static void check(const char *rstr, const char *sstr,
